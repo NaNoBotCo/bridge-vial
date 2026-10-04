@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en" translate="no" class="notranslate" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="google" content="notranslate">
+<title>The Bridge Vial</title>
+<meta name="description" content="How a Thai lab can check a new batch of freeze-dried peptide vials against a sister vial Janoshik already tested, and test tadalafil and anabolics against bought standards. GC or LC, the steps, certificates, costs. English and Thai.">
+<link rel="canonical" href="https://nanobotco.github.io/bridge-vial/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="NaNoBotCo">
+<meta property="og:title" content="The Bridge Vial · ขวดเทียบ">
+<meta property="og:description" content="One vial went to Prague and got used up. Its sisters can check every batch after it. · ขวดหนึ่งไปปรากแล้วหมดไป ขวดพี่น้องใช้ตรวจล็อตต่อไปได้">
+<meta property="og:url" content="https://nanobotco.github.io/bridge-vial/">
+<meta property="og:image" content="https://nanobotco.github.io/bridge-vial/card.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A row of vials with gold caps, one crossed out, two marked as bridge vials, and two overlapping peaks.">
+<meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="th_TH">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nanobotco.github.io/bridge-vial/card.jpg">
+<link rel="alternate" type="text/plain" href="https://nanobotco.github.io/bridge-vial/llms.txt" title="llms.txt">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='10' y='2' width='12' height='6' rx='1' fill='%23d4a017'/%3E%3Crect x='9' y='8' width='14' height='22' rx='3' fill='%23e8e4d8' stroke='%231d1f24' stroke-width='2'/%3E%3Crect x='11' y='20' width='10' height='8' fill='%2327509a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=Atkinson+Hyperlegible:wght@400;700&family=Mitr:wght@500&family=Sarabun:wght@400;700&family=IBM+Plex+Mono:wght@600&display=swap">
+<style>
+:root{
+  --ground:#f1efe8; --panel:#fffdf8; --well:#e8e4d8; --ink:#1d1f24; --muted:#5b5f68; --rule:#d6d0c0;
+  --red:#b23a2e; --blue:#27509a; --gold:#d4a017; --goldtext:#7f5f00; --green:#2f7a4a; --glass:#dfe8ee; --powder:#f7f3e6;
+  --display:"Bricolage Grotesque","Mitr",Georgia,sans-serif; --thai-display:"Mitr","Sarabun",Tahoma,sans-serif;
+  --body:"Atkinson Hyperlegible","Sarabun",Tahoma,system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#121419; --panel:#1b1e25; --well:#242832; --ink:#eceae4; --muted:#a3a7b0; --rule:#323744;
+  --red:#e2685c; --blue:#7da2e6; --gold:#f0c23c; --goldtext:#f0c23c; --green:#62c38a; --glass:#2a3440; --powder:#cfc8b4; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --ground:#121419; --panel:#1b1e25; --well:#242832; --ink:#eceae4; --muted:#a3a7b0; --rule:#323744;
+  --red:#e2685c; --blue:#7da2e6; --gold:#f0c23c; --goldtext:#f0c23c; --green:#62c38a; --glass:#2a3440; --powder:#cfc8b4; color-scheme:dark;}
+*{box-sizing:border-box}
+html,body{background:var(--ground);color:var(--ink)}
+body{margin:0;font:21px/1.65 var(--body);padding-inline:16px;padding-block:0 72px;overflow-x:hidden}
+.wrap{max-width:740px;margin:0 auto}
+a{color:var(--blue)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+[data-lang="en"] .th{display:none!important}
+[data-lang="th"] .en{display:none!important}
+header.bar{display:flex;align-items:center;gap:12px;max-width:740px;margin:0 auto;padding-block:14px}
+.brand{font:700 21px var(--display);margin-right:auto;white-space:nowrap}
+[data-lang="th"] .brand{font:500 21px var(--thai-display)}
+.lang{display:flex;border:2px solid var(--ink);border-radius:999px;overflow:hidden}
+.lang button{font:700 18px var(--body);background:none;border:0;color:var(--ink);padding:6px 16px;cursor:pointer;min-height:44px}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+h1,h2,h3{margin:0;line-height:1.12;text-wrap:balance;font-family:var(--display);font-weight:700}
+[data-lang="th"] h1,[data-lang="th"] h2,[data-lang="th"] h3{font-family:var(--thai-display);font-weight:500;line-height:1.3}
+h1{font-size:clamp(42px,10vw,68px);margin-top:10px}
+h2{font-size:clamp(28px,6vw,38px)}
+h3{font-size:24px}
+.kicker{font:600 16px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--goldtext);margin-top:28px}
+.lede{font-size:23px}
+section{margin:52px 0}
+section>p{margin:.6em 0}
+.toy{background:var(--panel);border:2px solid var(--ink);border-radius:14px;padding:16px;margin:18px 0 8px;box-shadow:5px 5px 0 var(--rule)}
+.toy svg{display:block;width:100%;height:auto}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0}
+button.go{font:700 18px var(--body);color:var(--ink);background:var(--panel);border:2px solid var(--ink);border-radius:10px;padding:8px 16px;cursor:pointer;min-height:48px}
+button.go[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+button.go:disabled{opacity:.4;cursor:default}
+.say{font-size:21px;font-weight:700;margin-top:10px;min-height:1.65em}
+.say b{color:var(--goldtext)}
+.bad{color:var(--red)} .good{color:var(--green)}
+.ways{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:16px}
+.way{background:var(--panel);border:2px solid var(--ink);border-radius:12px;padding:14px 16px}
+.way .n{font:600 15px var(--mono);color:var(--goldtext)}
+.way p{margin:.4em 0;font-size:19px;line-height:1.55}
+.way .weak{color:var(--muted);font-size:18px}
+.stepnum{font:600 16px var(--mono);color:var(--goldtext)}
+.steptext{font-size:22px;font-weight:700;min-height:5.2em;margin:6px 0 0}
+.dots{display:flex;gap:6px;margin-left:auto}
+.dots i{width:12px;height:12px;border-radius:50%;border:2px solid var(--ink);display:block}
+.dots i.on{background:var(--ink)}
+.vial{transition:transform .8s cubic-bezier(.5,0,.2,1),opacity .6s}
+.lot{transition:opacity .5s}
+@media (prefers-reduced-motion:reduce){.vial,.lot,.knob,.mol{transition:none!important;animation:none!important}}
+table{border-collapse:collapse;width:100%;font-size:19px;margin-top:14px}
+th,td{text-align:left;vertical-align:top;padding:10px 8px;border-bottom:2px solid var(--rule)}
+th{font-weight:700}
+td.y{color:var(--green);font-weight:700;white-space:nowrap}
+td.n{color:var(--red);font-weight:700;white-space:nowrap}
+ul.plain{padding-left:1.1em} ul.plain li{margin:.45em 0}
+.check li{list-style:none;position:relative;padding-left:1.6em;margin:.55em 0}
+.check{padding-left:0}
+.check li::before{content:"☐";position:absolute;left:0;color:var(--goldtext)}
+.range{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;margin:12px 0}
+.range label{font-weight:700;font-size:19px}
+.range input{width:100%;accent-color:var(--gold);height:32px}
+.range output{font:700 22px var(--body);text-align:right;grid-row:1/3;grid-column:2;font-variant-numeric:tabular-nums;min-width:4.5em}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:12px 0}
+.nums label{font-size:16px;font-weight:700;color:var(--muted);display:block}
+.nums input{font:700 20px var(--body);width:100%;padding:8px 10px;border:2px solid var(--ink);border-radius:8px;background:var(--well);color:var(--ink);min-height:48px}
+.bars{margin-top:16px}
+.barrow{margin:12px 0}
+.barrow .lab{display:flex;justify-content:space-between;gap:10px;font-weight:700;font-size:19px}
+.barrow .track{height:28px;background:var(--well);border-radius:6px;overflow:hidden;margin-top:4px}
+.barrow .fill{height:100%;border-radius:6px;transition:width .4s}
+.fine{font-size:17px;color:var(--muted);line-height:1.55}
+.swatch{display:inline-block;width:.9em;height:.9em;border-radius:3px;vertical-align:-.1em;margin-right:.3em}
+.switchrow{display:flex;gap:10px;flex-wrap:wrap}
+.mol{transition:transform 2.6s cubic-bezier(.4,0,.2,1),opacity .8s}
+.smoke{opacity:0;transition:opacity .8s 1.2s}
+.burnt .smoke{opacity:1}
+.coa{font-size:18px;line-height:1.45}
+.coahead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;border-bottom:3px solid var(--ink);padding-bottom:8px;font-family:var(--mono)}
+.coagrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:6px 16px;margin:10px 0}
+.coagrid .k{display:block;font-size:14px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.coamethod{background:var(--well);border-radius:8px;padding:8px 10px;font-weight:700}
+table.coatab{font-size:17px;margin-top:8px}
+table.coatab td,table.coatab th{padding:6px;border-bottom:1px solid var(--rule)}
+i.pin{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--gold);color:#1d1f24;font:600 15px var(--mono);font-style:normal;vertical-align:middle;border:2px solid var(--ink)}
+ol.pins{padding-left:1.6em}
+ol.pins li{margin:.7em 0}
+ol.pins li::marker{font:600 18px var(--mono);color:var(--goldtext)}
+[data-lang="en"] ol.pins li.th,[data-lang="th"] ol.pins li.en{display:none}
+.mzlist{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-top:10px}
+.mzlist div{border:2px solid var(--rule);border-radius:8px;padding:6px 10px;font:600 17px var(--mono)}
+.mzlist div.hit{border-color:var(--green);background:var(--well)}
+.mzlist small{display:block;font:400 14px var(--body);color:var(--muted)}
+.tscroll{overflow-x:auto;margin-top:14px}
+.tscroll table{margin-top:0}
+@media (max-width:520px){table{font-size:16px} th,td{padding:8px 5px} td.y,td.n{white-space:normal}}
+footer{max-width:740px;margin:60px auto 0;border-top:2px solid var(--rule);padding-top:18px;font-size:17px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="bar">
+  <span class="brand"><span class="en">The Bridge Vial</span><span class="th">ขวดเทียบ</span></span>
+  <div class="lang" role="group" aria-label="Language · ภาษา">
+    <button type="button" data-set-lang="th" aria-pressed="false">ไทย</button>
+    <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+  </div>
+</header>
+<main class="wrap">
+
+<p class="kicker"><span class="en">Third-party lab testing</span><span class="th">ตรวจแล็บโดยบุคคลที่สาม</span></p>
+<h1><span class="en">The Bridge Vial</span><span class="th">ขวดเทียบ</span></h1>
+<p class="lede en">A friend's freeze-dried vial went to Janoshik, a testing lab in Prague, and came back named, weighed and graded. The test used it up. Its nine sister vials are still here in Chiang Mai. This page walks through how a Thai lab can use one of those sisters to check each new batch, and what that costs next to sending every batch to Prague.</p>
+<p class="lede th">ขวดผงแห้งของเพื่อนคนหนึ่งถูกส่งไปตรวจที่ Janoshik แล็บในกรุงปราก ผลกลับมาบอกว่าเป็นสารอะไร หนักกี่มิลลิกรัม บริสุทธิ์แค่ไหน การตรวจใช้ขวดนั้นหมดไป แต่ขวดพี่น้องอีกเก้าขวดยังอยู่ที่เชียงใหม่ หน้านี้เล่าทีละขั้นว่าแล็บไทยใช้ขวดพี่น้องขวดหนึ่งตรวจล็อตใหม่แต่ละล็อตได้อย่างไร และเสียเงินเท่าไรเมื่อเทียบกับส่งทุกล็อตไปปราก</p>
+<p class="en"><b>Freeze-dried</b> (lyophilized): the liquid is frozen and the ice pulled off under vacuum, leaving a small cake of powder you mix with water later. Most such vials in this trade hold <b>peptides</b>, short chains of amino acids.</p>
+<p class="th"><b>ผงแห้งแช่เยือกแข็ง</b> (ไลโอฟิไลซ์): แช่แข็งของเหลว แล้วดึงน้ำแข็งออกในสุญญากาศ เหลือผงเป็นก้อนเล็ก ๆ ไว้ผสมน้ำตอนใช้ ขวดแบบนี้ในตลาดส่วนใหญ่บรรจุ <b>เปปไทด์</b> คือสายกรดอะมิโนสั้น ๆ</p>
+
+<section id="question">
+<h2><span class="en">Can a lab name something it has never run?</span><span class="th">แล็บที่ไม่เคยตรวจสารนี้ ยืนยันได้ไหมว่าเป็นสาร A?</span></h2>
+<p class="en">Yes, three ways. Each one answers a different share of the question. First a word: <b>chromatography</b> pushes the sample through a long thin tube, the <b>column</b>. Each substance takes its own time to reach the far end, its <b>retention time</b>. A <b>mass spectrometer</b> (the MS) waits at the end and weighs what comes out.</p>
+<p class="th">ได้ มีสามทาง แต่ละทางตอบคำถามได้ไม่เท่ากัน ก่อนอื่น <b>โครมาโทกราฟี</b> คือการดันตัวอย่างผ่านท่อยาวเรียว เรียกว่า <b>คอลัมน์</b> สารแต่ละตัวใช้เวลาออกปลายท่อไม่เท่ากัน เรียกว่า <b>เวลารีเทนชัน</b> ที่ปลายท่อมี <b>แมสสเปกโตรมิเตอร์</b> (MS) รอชั่งน้ำหนักสิ่งที่ไหลออกมา</p>
+<div class="ways">
+  <div class="way">
+    <div class="n">1 · <span class="en">LIBRARY</span><span class="th">ห้องสมุด</span></div>
+    <h3><span class="en">Match the fingerprint</span><span class="th">เทียบลายนิ้วมือ</span></h3>
+    <p class="en">GC-MS shatters each molecule and weighs the pieces. The pattern is a fingerprint, searched against a library of about 300,000 (NIST). If A is in the library, the lab can name it without ever having run it.</p>
+    <p class="th">GC-MS ทุบโมเลกุลเป็นชิ้นแล้วชั่งแต่ละชิ้น รูปแบบชิ้นส่วนคือลายนิ้วมือ ค้นเทียบกับห้องสมุดราว 300,000 แบบ (NIST) ถ้าสาร A อยู่ในห้องสมุด แล็บบอกชื่อได้แม้ไม่เคยตรวจมาก่อน</p>
+    <p class="weak en">Gap: peptides are not in it, and look-alike molecules give look-alike patterns.</p>
+    <p class="weak th">ช่องโหว่: เปปไทด์ไม่อยู่ในห้องสมุดนี้ และโมเลกุลหน้าตาคล้ายกันให้ลายคล้ายกัน</p>
+  </div>
+  <div class="way">
+    <div class="n">2 · <span class="en">EXACT MASS</span><span class="th">มวลละเอียด</span></div>
+    <h3><span class="en">Weigh it to the decimal</span><span class="th">ชั่งถึงทศนิยม</span></h3>
+    <p class="en">A high-resolution MS (Q-TOF or Orbitrap) weighs a molecule to a few parts per million. The lab works out what A should weigh from its formula and compares. A second stage, MS/MS, breaks a peptide link by link, so the pieces spell its sequence.</p>
+    <p class="th">MS ความละเอียดสูง (Q-TOF หรือ Orbitrap) ชั่งโมเลกุลได้ละเอียดระดับไม่กี่ส่วนในล้าน แล็บคำนวณจากสูตรเคมีว่าสาร A ควรหนักเท่าไร แล้วเทียบ ขั้นที่สอง MS/MS หักเปปไทด์ทีละข้อ ชิ้นที่ได้สะกดลำดับกรดอะมิโนออกมา</p>
+    <p class="weak en">Gap: two molecules with one formula weigh the same.</p>
+    <p class="weak th">ช่องโหว่: สองโมเลกุลที่สูตรเดียวกันหนักเท่ากัน</p>
+  </div>
+  <div class="way">
+    <div class="n">3 · <span class="en">SIDE BY SIDE</span><span class="th">วางเทียบ</span></div>
+    <h3><span class="en">Run a known A next to it</span><span class="th">ตรวจคู่กับสาร A ที่รู้แล้ว</span></h3>
+    <p class="en">Same machine, same day, a sample known to be A beside the unknown. Same retention time and same spectrum: same substance. Of the three, only this one also says how much.</p>
+    <p class="th">เครื่องเดียวกัน วันเดียวกัน วางตัวอย่างที่รู้ว่าเป็นสาร A คู่กับตัวที่ยังไม่รู้ เวลารีเทนชันตรงกันและสเปกตรัมตรงกัน แปลว่าสารเดียวกัน ในสามทาง มีทางนี้ทางเดียวที่บอกปริมาณได้ด้วย</p>
+    <p class="weak en">Needs: a sample known to be A. That is the bridge vial.</p>
+    <p class="weak th">ต้องมี: ตัวอย่างที่รู้แน่ว่าเป็นสาร A นั่นคือขวดเทียบ</p>
+  </div>
+</div>
+</section>
+
+<section id="gc-lc">
+<h2><span class="en">GC or LC?</span><span class="th">GC หรือ LC?</span></h2>
+<p class="en">GC-MS (gas chromatography) starts by turning the sample to gas in an oven near 300 °C. Small sturdy molecules, such as steroids and most pill drugs, fly through. Peptides char. For peptides labs use liquid instead: <b>HPLC</b> (liquid chromatography read by UV light) or <b>LC-MS</b> (liquid chromatography with a mass spectrometer).</p>
+<p class="th">GC-MS (แก๊สโครมาโทกราฟี) เริ่มจากทำตัวอย่างให้เป็นแก๊สในเตาราว 300 °C โมเลกุลเล็กที่ทนร้อน เช่น สเตียรอยด์และยาเม็ดส่วนใหญ่ ลอยผ่านไปได้ เปปไทด์ไหม้ สำหรับเปปไทด์ แล็บใช้ของเหลวแทน: <b>HPLC</b> (โครมาโทกราฟีของเหลว อ่านด้วยแสง UV) หรือ <b>LC-MS</b> (โครมาโทกราฟีของเหลวต่อกับแมสสเปกโตรมิเตอร์)</p>
+<div class="toy">
+  <div class="switchrow" role="group" aria-label="Molecule · โมเลกุล">
+    <button type="button" class="go" data-mol="small" aria-pressed="true"><span class="en">Tadalafil, steroid</span><span class="th">ทาดาลาฟิล สเตียรอยด์</span></button>
+    <button type="button" class="go" data-mol="peptide" aria-pressed="false"><span class="en">Peptide</span><span class="th">เปปไทด์</span></button>
+    <button type="button" class="go" data-run><span class="en">▶ Into the oven</span><span class="th">▶ เข้าเตา</span></button>
+  </div>
+  <svg id="oven" viewBox="0 0 640 210" role="img" aria-label="A molecule entering a GC oven and its column">
+    <rect x="150" y="30" width="300" height="150" rx="14" fill="var(--well)" stroke="var(--ink)" stroke-width="3"/>
+    <text x="300" y="58" text-anchor="middle" font-family="var(--mono)" font-size="20" font-weight="600" fill="var(--red)">GC 300 °C</text>
+    <path d="M60 105 H180 C230 105 230 150 270 150 C310 150 310 75 350 75 C390 75 390 150 430 150 H560" fill="none" stroke="var(--muted)" stroke-width="6" stroke-linecap="round"/>
+    <rect x="560" y="80" width="64" height="50" rx="8" fill="var(--panel)" stroke="var(--ink)" stroke-width="3"/>
+    <text x="592" y="111" text-anchor="middle" font-family="var(--mono)" font-size="18" font-weight="600" fill="var(--ink)">MS</text>
+    <g class="smoke" fill="var(--muted)">
+      <circle cx="232" cy="88" r="12"/><circle cx="248" cy="70" r="15"/><circle cx="226" cy="54" r="11"/><circle cx="252" cy="44" r="8"/>
+    </g>
+    <g id="mol" class="mol"></g>
+  </svg>
+  <p class="say" id="ovenSay" aria-live="polite"></p>
+</div>
+<p class="en">When Beer calls a lab, ask for HPLC or LC-MS as well as GC-MS. For a peptide, GC-MS alone will not do the job.</p>
+<p class="th">ตอนเบียร์โทรถามแล็บ ให้ถาม HPLC หรือ LC-MS ด้วย ไม่ใช่แค่ GC-MS ถ้าเป็นเปปไทด์ GC-MS อย่างเดียวทำงานนี้ไม่ได้</p>
+</section>
+
+<section id="pills-oils">
+<h2><span class="en">Pills and oils</span><span class="th">ยาเม็ดและน้ำมัน</span></h2>
+<p class="en">Tadalafil (Cialis) and anabolic steroids are small molecules. That changes three things. GC-MS works, and anti-doping labs have used it on steroids for decades. Both are in the NIST library, so the fingerprint match works. And the lab can buy a certified <b>reference standard</b>, a pure sample sold with its purity stated, so no bridge vial is needed: the lab runs your tablet or oil beside the standard and counts milligrams directly.</p>
+<p class="th">ทาดาลาฟิล (เซียลิส) และสเตียรอยด์อนาบอลิกเป็นโมเลกุลเล็ก ทำให้ต่างจากเปปไทด์สามข้อ GC-MS ใช้ได้ แล็บตรวจสารต้องห้ามในกีฬาใช้ GC-MS ตรวจสเตียรอยด์มาหลายสิบปี ทั้งสองอยู่ในห้องสมุด NIST จึงเทียบลายนิ้วมือได้ และแล็บซื้อ <b>สารมาตรฐานอ้างอิง</b> ได้ คือสารบริสุทธิ์ที่ขายพร้อมระบุความบริสุทธิ์ จึงไม่ต้องใช้ขวดเทียบ แล็บตรวจยาเม็ดหรือน้ำมันของคุณคู่กับสารมาตรฐาน แล้วนับมิลลิกรัมได้ตรง ๆ</p>
+<div class="tscroll"><table>
+  <thead><tr><th></th><th><span class="en">Peptide vial</span><span class="th">ขวดเปปไทด์</span></th><th><span class="en">Tadalafil</span><span class="th">ทาดาลาฟิล</span></th><th><span class="en">Anabolics</span><span class="th">อนาบอลิก</span></th></tr></thead>
+  <tbody>
+    <tr><td><span class="en">Form</span><span class="th">รูปแบบ</span></td><td><span class="en">Powder</span><span class="th">ผง</span></td><td><span class="en">Tablet, liquid</span><span class="th">เม็ด น้ำ</span></td><td><span class="en">Oil (mg/mL), tablet</span><span class="th">น้ำมัน (mg/mL) เม็ด</span></td></tr>
+    <tr><td><span class="en">Machine</span><span class="th">เครื่อง</span></td><td>HPLC, LC-MS</td><td>HPLC, LC-MS, GC-MS</td><td>GC-MS, HPLC, LC-MS</td></tr>
+    <tr><td><span class="en">In the NIST library</span><span class="th">อยู่ในห้องสมุด NIST</span></td><td class="n"><span class="en">No</span><span class="th">ไม่</span></td><td class="y"><span class="en">Yes</span><span class="th">ใช่</span></td><td class="y"><span class="en">Common ones</span><span class="th">ตัวที่พบบ่อย</span></td></tr>
+    <tr><td><span class="en">Reference standard</span><span class="th">สารมาตรฐาน</span></td><td><span class="en">Bridge vial</span><span class="th">ขวดเทียบ</span></td><td><span class="en">Buy (pharmacopoeia)</span><span class="th">ซื้อได้ (ตำรายา)</span></td><td><span class="en">Buy; some need a licence</span><span class="th">ซื้อได้ บางตัวต้องมีใบอนุญาต</span></td></tr>
+    <tr><td><span class="en">Usual findings</span><span class="th">ที่พบบ่อย</span></td><td><span class="en">Underfilled, impurities</span><span class="th">บรรจุขาด สิ่งเจือปน</span></td><td><span class="en">Under- or overdosed, sildenafil instead</span><span class="th">ขนาดขาดหรือเกิน มีซิลเดนาฟิลแทน</span></td><td><span class="en">Underdosed, another ester or steroid swapped in</span><span class="th">ขนาดขาด เอสเทอร์อื่นหรือสเตียรอยด์ตัวอื่นมาแทน</span></td></tr>
+  </tbody>
+</table></div>
+<p class="en">For a tablet or an oil, "purity" means two numbers: what the active substance is, and how much is in each tablet or millilitre. Thailand's Department of Medical Sciences already tests supplements for hidden tadalafil and sildenafil. CMU Science lists GC-MS quantity with your method and spectrum at ฿3,600 for the first sample and ฿2,600 for the next. Janoshik's anabolic steroid screen is reported at US$120.</p>
+<p class="th">สำหรับยาเม็ดหรือน้ำมัน "ความบริสุทธิ์" หมายถึงสองตัวเลข: สารออกฤทธิ์คืออะไร และมีกี่มิลลิกรัมต่อเม็ดหรือต่อมิลลิลิตร กรมวิทยาศาสตร์การแพทย์ตรวจหาทาดาลาฟิลและซิลเดนาฟิลที่แอบผสมในอาหารเสริมอยู่แล้ว คณะวิทยาศาสตร์ มช. ประกาศราคา GC-MS หาปริมาณ กรณีมีวิธีและสเปกตรัมมาเอง ตัวอย่างแรก ฿3,600 ตัวถัดไป ฿2,600 ราคาตรวจสเตียรอยด์อนาบอลิกของ Janoshik มีรายงานไว้ที่ US$120</p>
+</section>
+
+<section id="steps">
+<h2><span class="en">The bridge, step by step</span><span class="th">สะพาน ทีละขั้น</span></h2>
+<div class="toy">
+  <svg id="bench" viewBox="0 0 640 330" role="img" aria-label="Vials of batch A and batch B moving between the shelf, Janoshik and a Thai lab">
+    <g id="boxes"></g>
+    <g id="vials"></g>
+  </svg>
+  <div class="row">
+    <button type="button" class="go" id="prev" aria-label="Back · ย้อน">◀</button>
+    <button type="button" class="go" id="next"><span class="en">Next step ▶</span><span class="th">ขั้นต่อไป ▶</span></button>
+    <div class="dots" id="dots" aria-hidden="true"></div>
+  </div>
+  <div class="stepnum" id="stepnum"></div>
+  <p class="steptext" id="steptext" aria-live="polite"></p>
+</div>
+</section>
+
+<section id="traces">
+<h2><span class="en">Reading the two traces</span><span class="th">อ่านกราฟสองเส้น</span></h2>
+<p class="en">The lab sends back a <b>chromatogram</b> for each vial: time across, signal up. Each substance draws a peak. Bridge vial in <span class="swatch" style="background:var(--blue)"></span>blue, new batch in <span class="swatch" style="background:var(--red)"></span>red.</p>
+<p class="th">แล็บส่ง <b>โครมาโทแกรม</b> ของแต่ละขวดกลับมา แกนนอนคือเวลา แกนตั้งคือสัญญาณ สารแต่ละตัววาดยอดหนึ่งยอด ขวดเทียบเป็น <span class="swatch" style="background:var(--blue)"></span>สีน้ำเงิน ล็อตใหม่เป็น <span class="swatch" style="background:var(--red)"></span>สีแดง</p>
+<div class="toy">
+  <div class="row" role="group" aria-label="Outcome · ผลลัพธ์">
+    <button type="button" class="go" data-case="same" aria-pressed="true"><span class="en">Match</span><span class="th">ตรงกัน</span></button>
+    <button type="button" class="go" data-case="under" aria-pressed="false"><span class="en">Underfilled</span><span class="th">บรรจุขาด</span></button>
+    <button type="button" class="go" data-case="wrong" aria-pressed="false"><span class="en">Wrong substance</span><span class="th">ผิดสาร</span></button>
+    <button type="button" class="go" data-case="junk" aria-pressed="false"><span class="en">Extra peaks</span><span class="th">มียอดแปลก</span></button>
+  </div>
+  <svg id="chrom" viewBox="0 0 640 260" role="img" aria-label="Two overlaid chromatograms"></svg>
+  <p class="say" id="chromSay" aria-live="polite"></p>
+</div>
+</section>
+
+<section id="certificate">
+<h2><span class="en">Reading a certificate</span><span class="th">อ่านใบรับรองผล</span></h2>
+<p class="en">Labs send a <b>certificate of analysis</b> (COA): one page, a table and a chromatogram. This one is drawn for the page; the fields match the ones people get from the labs they use now.</p>
+<p class="th">แล็บส่ง <b>ใบรับรองผลวิเคราะห์</b> (COA) มา หน้าเดียว มีตารางกับโครมาโทแกรม ใบนี้วาดขึ้นสำหรับหน้านี้ ช่องต่าง ๆ ตรงกับใบที่คนได้จากแล็บที่ใช้กันอยู่</p>
+<div class="toy coa" id="coa">
+  <div class="coahead"><b><span class="en">Example Lab · Certificate of Analysis</span><span class="th">แล็บตัวอย่าง · ใบรับรองผลวิเคราะห์</span></b><span>#00417 <i class="pin">10</i></span></div>
+  <div class="coagrid">
+    <div><span class="k"><span class="en">Client</span><span class="th">ผู้ส่ง</span></span> <span class="en">Seller Co.</span><span class="th">บริษัทผู้ขาย</span> <i class="pin">1</i></div>
+    <div><span class="k"><span class="en">Received / analysed</span><span class="th">รับ / ตรวจ</span></span> 03 · 10 Mar <i class="pin">9</i></div>
+    <div><span class="k"><span class="en">Compound</span><span class="th">สาร</span></span> <span class="en">Substance A</span><span class="th">สาร A</span></div>
+    <div><span class="k"><span class="en">Lot</span><span class="th">ล็อต</span></span> A-2403-17 <i class="pin">2</i></div>
+    <div><span class="k"><span class="en">Formula</span><span class="th">สูตร</span></span> C<sub>x</sub>H<sub>y</sub>N<sub>z</sub>O<sub>w</sub></div>
+    <div><span class="k"><span class="en">Mol wt</span><span class="th">มวลโมเลกุล</span></span> 4,113.6 g/mol <i class="pin">3</i></div>
+  </div>
+  <div class="coamethod"><span class="en">Method: LC-MS with UV detection</span><span class="th">วิธี: LC-MS ร่วมกับตัวตรวจวัด UV</span> <i class="pin">4</i></div>
+  <div class="tscroll"><table class="coatab">
+    <tr><th></th><th><span class="en">Spec</span><span class="th">เกณฑ์</span></th><th><span class="en">Result</span><span class="th">ผล</span></th><th></th></tr>
+    <tr><td><span class="en">Identity</span><span class="th">ตัวตน</span></td><td><span class="en">Substance A</span><span class="th">สาร A</span></td><td><span class="en">Substance A</span><span class="th">สาร A</span></td><td><span class="en">Conforms</span><span class="th">ผ่าน</span> <i class="pin">5</i></td></tr>
+    <tr><td><span class="en">Quantity</span><span class="th">ปริมาณ</span></td><td>10 mg ± 10%</td><td>10.4 mg</td><td><span class="en">Conforms</span><span class="th">ผ่าน</span> <i class="pin">6</i></td></tr>
+    <tr><td><span class="en">Purity</span><span class="th">ความบริสุทธิ์</span></td><td>&gt;98%</td><td>99.6%</td><td><span class="en">Conforms</span><span class="th">ผ่าน</span> <i class="pin">7</i></td></tr>
+  </table></div>
+  <svg viewBox="0 0 640 170" role="img" aria-label="A chromatogram with one sharp peak near 2.9 minutes, filtered to one mass window">
+    <line x1="40" y1="140" x2="610" y2="140" stroke="var(--ink)" stroke-width="2"/><line x1="40" y1="20" x2="40" y2="140" stroke="var(--ink)" stroke-width="2"/>
+    <path id="coaPeak" fill="none" stroke="var(--ink)" stroke-width="3"/>
+    <text x="325" y="164" text-anchor="middle" font-size="15" fill="var(--muted)" font-family="var(--mono)">0 ─ 1 ─ 2 ─ 3 ─ 4 ─ 5 min</text>
+    <text x="606" y="34" text-anchor="end" font-size="15" fill="var(--ink)" font-family="var(--mono)">m/z = 1029.40–1029.41 MS</text>
+    <text x="352" y="36" font-size="15" fill="var(--ink)" font-family="var(--mono)">RT 2.9</text>
+    <foreignObject x="560" y="44" width="40" height="40"><i xmlns="http://www.w3.org/1999/xhtml" class="pin">8</i></foreignObject>
+  </svg>
+</div>
+<ol class="pins">
+  <li class="en"><b>Client.</b> Who sent the vial. When the seller sent it, the seller chose which vial. A vial a buyer took off their own shelf, like the friend's, speaks more for that buyer's batch.</li>
+  <li class="th"><b>ผู้ส่ง</b> ใครส่งขวดมาตรวจ ถ้าผู้ขายส่งเอง ผู้ขายเลือกขวดเอง ขวดที่ผู้ซื้อหยิบจากของที่ตัวเองซื้อมา อย่างขวดของเพื่อน บอกเรื่องล็อตของผู้ซื้อได้มากกว่า</li>
+  <li class="en"><b>Lot.</b> Match it to the label on your vial and box. A certificate for another lot says nothing about yours.</li>
+  <li class="th"><b>ล็อต</b> เทียบกับฉลากบนขวดและกล่องของคุณ ใบรับรองของล็อตอื่นไม่ได้บอกอะไรเกี่ยวกับขวดของคุณ</li>
+  <li class="en"><b>Mol wt.</b> Check it against PubChem. Peptides often come as a salt; each TFA (trifluoroacetate, left over from making the peptide) adds about 114 to the weight, and the milligrams may count the salt too.</li>
+  <li class="th"><b>มวลโมเลกุล</b> เทียบกับ PubChem เปปไทด์มักมาในรูปเกลือ TFA (ไตรฟลูออโรอะซิเตต ที่เหลือจากขั้นตอนผลิต) แต่ละตัวเพิ่มน้ำหนักราว 114 และตัวเลขมิลลิกรัมอาจนับรวมเกลือด้วย</li>
+  <li class="en"><b>Method.</b> Two detectors: UV sees nearly everything in the sample; the MS weighs it. Identity comes from the MS, purity should come from UV.</li>
+  <li class="th"><b>วิธี</b> มีตัวตรวจสองตัว UV เห็นเกือบทุกอย่างในตัวอย่าง MS ชั่งน้ำหนัก ตัวตนมาจาก MS ความบริสุทธิ์ควรมาจาก UV</li>
+  <li class="en"><b>Identity.</b> "Conforms" means the measured mass matched the expected one. Check the m/z yourself with the checker below.</li>
+  <li class="th"><b>ตัวตน</b> "ผ่าน" แปลว่ามวลที่วัดได้ตรงกับที่คาด ลองเช็ก m/z เองด้วยเครื่องคิดด้านล่าง</li>
+  <li class="en"><b>Quantity.</b> Do the spec arithmetic yourself: 10 mg ± 10% is 9.0 to 11.0 mg, so 10.4 passes. A "conforms" next to a result outside its own range is a misprint or worse.</li>
+  <li class="th"><b>ปริมาณ</b> คิดเกณฑ์เอง: 10 mg ± 10% คือ 9.0 ถึง 11.0 mg ดังนั้น 10.4 ผ่าน ถ้าเขียน "ผ่าน" ทั้งที่ผลอยู่นอกช่วงของตัวเอง แปลว่าพิมพ์ผิด หรือแย่กว่านั้น</li>
+  <li class="en"><b>Purity.</b> The main peak's share of all peaks. Ask which trace it came from.</li>
+  <li class="th"><b>ความบริสุทธิ์</b> สัดส่วนของยอดหลักต่อยอดทั้งหมด ถามว่าคิดจากกราฟเส้นไหน</li>
+  <li class="en"><b>The chromatogram.</b> "m/z = 1029.40–1029.41" means this trace shows only molecules of that one mass. Anything else in the vial is invisible here, so a single clean peak is expected and says nothing about purity. The UV trace or full scan (TIC) shows the rest. RT 2.9 is this lab's column; a Thai lab's time will differ, so compare against the bridge vial run the same day.</li>
+  <li class="th"><b>โครมาโทแกรม</b> "m/z = 1029.40–1029.41" แปลว่ากราฟนี้แสดงเฉพาะโมเลกุลมวลนั้นมวลเดียว สิ่งอื่นในขวดมองไม่เห็นในกราฟนี้ ยอดเดียวสะอาด ๆ จึงเป็นเรื่องปกติ และไม่ได้บอกความบริสุทธิ์ กราฟ UV หรือแบบสแกนเต็ม (TIC) จึงจะเห็นส่วนที่เหลือ RT 2.9 เป็นของคอลัมน์แล็บนี้ แล็บไทยจะได้เวลาต่างออกไป ให้เทียบกับขวดเทียบที่ตรวจวันเดียวกัน</li>
+  <li class="en"><b>Dates.</b> Peptides age. A certificate from a year ago describes the vial as it was then.</li>
+  <li class="th"><b>วันที่</b> เปปไทด์เสื่อมตามเวลา ใบรับรองเมื่อปีที่แล้วบอกสภาพขวดในตอนนั้น</li>
+  <li class="en"><b>Certificate number.</b> Ask the lab to confirm it; some labs offer an online check by number or key. Copies of certificates get edited.</li>
+  <li class="th"><b>เลขใบรับรอง</b> ถามแล็บให้ยืนยัน บางแล็บมีระบบเช็กออนไลน์ด้วยเลขหรือรหัส สำเนาใบรับรองถูกแก้ไขได้</li>
+</ol>
+<div class="toy" id="mz">
+  <h3><span class="en">m/z checker</span><span class="th">เครื่องเช็ก m/z</span></h3>
+  <p class="en">An LC-MS sees a molecule carrying extra hydrogens (each +1 charge, the <b>z</b>). It reads mass divided by charge: m/z = (M + z × 1.007) ÷ z. Type the certificate's numbers.</p>
+  <p class="th">LC-MS เห็นโมเลกุลที่พกไฮโดรเจนเพิ่ม (ตัวละ +1 ประจุ คือ <b>z</b>) เครื่องอ่านมวลหารด้วยประจุ: m/z = (M + z × 1.007) ÷ z พิมพ์ตัวเลขจากใบรับรอง</p>
+  <div class="nums">
+    <div><label for="mzM"><span class="en">Mol wt (M)</span><span class="th">มวลโมเลกุล (M)</span></label><input id="mzM" type="number" step="0.001" value="4113.6" inputmode="decimal"></div>
+    <div><label for="mzV"><span class="en">m/z on the trace</span><span class="th">m/z บนกราฟ</span></label><input id="mzV" type="number" step="0.0001" value="1029.41" inputmode="decimal"></div>
+  </div>
+  <div class="row" role="group" aria-label="Adjustments · ปรับ">
+    <button type="button" class="go" data-adj="tfa" aria-pressed="false"><span class="en">− 1 TFA salt</span><span class="th">− เกลือ TFA 1</span></button>
+    <button type="button" class="go" data-adj="na" aria-pressed="false"><span class="en">+ sodium</span><span class="th">+ โซเดียม</span></button>
+    <button type="button" class="go" data-adj="fa" aria-pressed="false"><span class="en">+ formic acid</span><span class="th">+ กรดฟอร์มิก</span></button>
+  </div>
+  <div id="mzList" class="mzlist"></div>
+  <p class="say" id="mzSay" aria-live="polite"></p>
+  <p class="fine en">Sodium and formic acid (from the liquid the lab runs) sometimes ride along on the molecule. Mol wt on a certificate is usually the average weight; m/z is usually the lightest isotope, so a gap under about 1 at peptide sizes still fits.</p>
+  <p class="fine th">โซเดียมและกรดฟอร์มิก (จากของเหลวที่แล็บใช้) บางครั้งเกาะติดโมเลกุลมาด้วย มวลโมเลกุลในใบรับรองมักเป็นค่าเฉลี่ย ส่วน m/z มักเป็นไอโซโทปที่เบาที่สุด เปปไทด์ขนาดนี้ห่างกันไม่ถึงราว 1 ก็ยังนับว่าตรง</p>
+</div>
+</section>
+
+<section id="answers">
+<h2><span class="en">What the Thai run tells you</span><span class="th">ผลจากแล็บไทยบอกอะไร</span></h2>
+<div class="tscroll"><table>
+  <thead><tr><th><span class="en">Question</span><span class="th">คำถาม</span></th><th><span class="en">Bridge run</span><span class="th">ตรวจคู่ขวดเทียบ</span></th><th><span class="en">How</span><span class="th">อย่างไร</span></th></tr></thead>
+  <tbody>
+    <tr><td><span class="en">Is it A?</span><span class="th">เป็นสาร A ไหม?</span></td><td class="y"><span class="en">Yes</span><span class="th">ได้</span></td><td><span class="en">Same retention time and mass as the bridge vial</span><span class="th">เวลารีเทนชันและมวลตรงกับขวดเทียบ</span></td></tr>
+    <tr><td><span class="en">How many mg?</span><span class="th">กี่มิลลิกรัม?</span></td><td class="y"><span class="en">Yes, relative</span><span class="th">ได้ แบบเทียบ</span></td><td><span class="en">Peak area against the bridge vial, whose mg Janoshik counted</span><span class="th">พื้นที่ใต้ยอดเทียบกับขวดเทียบ ซึ่ง Janoshik นับมิลลิกรัมไว้แล้ว</span></td></tr>
+    <tr><td><span class="en">How pure?</span><span class="th">บริสุทธิ์แค่ไหน?</span></td><td class="y"><span class="en">Yes</span><span class="th">ได้</span></td><td><span class="en">Main peak's share of all peaks (HPLC area %)</span><span class="th">สัดส่วนยอดหลักต่อทุกยอด (HPLC พื้นที่ %)</span></td></tr>
+    <tr><td><span class="en">Sterile?</span><span class="th">ปลอดเชื้อไหม?</span></td><td class="n"><span class="en">No</span><span class="th">ไม่ได้</span></td><td><span class="en">A separate culture test</span><span class="th">ต้องเพาะเชื้อแยก</span></td></tr>
+    <tr><td><span class="en">Endotoxin?</span><span class="th">เอนโดท็อกซิน?</span></td><td class="n"><span class="en">No</span><span class="th">ไม่ได้</span></td><td><span class="en">Bacterial toxin; a separate LAL test</span><span class="th">พิษจากแบคทีเรีย ต้องตรวจ LAL แยก</span></td></tr>
+    <tr><td><span class="en">Heavy metals?</span><span class="th">โลหะหนัก?</span></td><td class="n"><span class="en">No</span><span class="th">ไม่ได้</span></td><td><span class="en">A separate ICP-MS test</span><span class="th">ต้องตรวจ ICP-MS แยก</span></td></tr>
+  </tbody>
+</table></div>
+</section>
+
+<section id="limits">
+<h2><span class="en">Limits</span><span class="th">ข้อจำกัด</span></h2>
+<ul class="plain en">
+  <li>Batch B can be only as right as Janoshik's number for batch A. An error there carries forward.</li>
+  <li>Sister vials vary a little in fill. The run measures B against the bridge vial, not against the vial Prague tested.</li>
+  <li>Freeze-dried peptides break down slowly, even frozen. An old bridge vial reads low and makes B look rich. Sending a vial back to Janoshik now and then resets the chain.</li>
+  <li>A report covers the vials the lab ran, not the whole batch. Two vials of B say more than one.</li>
+  <li>Same cap colour is a weak clue. A lot code on the label, the box and the order record is a stronger one.</li>
+</ul>
+<ul class="plain th">
+  <li>ล็อต B ถูกต้องได้เท่าที่ตัวเลขของ Janoshik สำหรับล็อต A ถูกต้อง ถ้าตัวเลขนั้นคลาด ความคลาดก็ส่งต่อมาด้วย</li>
+  <li>ขวดพี่น้องบรรจุไม่เท่ากันเป๊ะ การตรวจวัดล็อต B เทียบกับขวดเทียบ ไม่ใช่เทียบกับขวดที่ปรากตรวจ</li>
+  <li>เปปไทด์ผงแห้งเสื่อมช้า ๆ แม้แช่แข็ง ขวดเทียบที่เก่าจะอ่านค่าต่ำ ทำให้ล็อต B ดูเหมือนเข้มข้นเกิน ส่งขวดกลับไป Janoshik เป็นระยะเพื่อตั้งหลักใหม่</li>
+  <li>รายงานครอบคลุมเฉพาะขวดที่แล็บตรวจ ไม่ใช่ทั้งล็อต ตรวจล็อต B สองขวดบอกได้มากกว่าขวดเดียว</li>
+  <li>ฝาสีเดียวกันเป็นเบาะแสที่อ่อน เลขล็อตบนฉลาก บนกล่อง และในใบสั่งซื้อ เป็นเบาะแสที่แข็งกว่า</li>
+</ul>
+</section>
+
+<section id="costs">
+<h2><span class="en">Costs</span><span class="th">ค่าใช้จ่าย</span></h2>
+<p class="en">Thai prices are Chiang Mai University's posted sheets (2024–2026). Beer is calling labs to confirm them. Janoshik's price is as reported by Peptide Protocol Wiki for a GLP-1 peptide test. Change any number.</p>
+<p class="th">ราคาไทยมาจากประกาศอัตราของมหาวิทยาลัยเชียงใหม่ (2567–2569) เบียร์กำลังโทรถามแล็บเพื่อยืนยัน ราคา Janoshik มาจากที่ Peptide Protocol Wiki รายงานไว้สำหรับการตรวจเปปไทด์กลุ่ม GLP-1 แก้ตัวเลขได้ทุกช่อง</p>
+<div class="toy">
+  <div class="range">
+    <label for="batches"><span class="en">New batches to check</span><span class="th">จำนวนล็อตใหม่ที่จะตรวจ</span></label>
+    <input type="range" id="batches" min="1" max="24" value="6">
+    <output id="batchesOut" for="batches">6</output>
+  </div>
+  <div class="range">
+    <label for="every"><span class="en">Re-anchor at Janoshik every … batches</span><span class="th">ส่ง Janoshik ตั้งหลักใหม่ทุก … ล็อต</span></label>
+    <input type="range" id="every" min="2" max="12" value="4">
+    <output id="everyOut" for="every">4</output>
+  </div>
+  <div class="nums">
+    <div><label for="jtest"><span class="en">Janoshik test, US$</span><span class="th">ค่าตรวจ Janoshik (US$)</span></label><input id="jtest" type="number" min="0" value="300" inputmode="decimal"></div>
+    <div><label for="jship"><span class="en">Shipping to Prague, US$</span><span class="th">ค่าส่งไปปราก (US$)</span></label><input id="jship" type="number" min="0" value="50" inputmode="decimal"></div>
+    <div><label for="fx"><span class="en">Baht per US$</span><span class="th">บาทต่อ 1 US$</span></label><input id="fx" type="number" min="1" step="0.1" value="33" inputmode="decimal"></div>
+    <div><label for="tsample"><span class="en">Thai lab, per vial ฿</span><span class="th">แล็บไทย ต่อขวด (฿)</span></label><input id="tsample" type="number" min="0" value="2700" inputmode="numeric"></div>
+    <div><label for="tsetup"><span class="en">Thai method setup, once ฿</span><span class="th">ตั้งวิธีตรวจ ครั้งเดียว (฿)</span></label><input id="tsetup" type="number" min="0" value="15400" inputmode="numeric"></div>
+  </div>
+  <div class="bars" id="bars"></div>
+  <p class="say" id="costSay" aria-live="polite"></p>
+  <p class="fine en">Bridge route per batch: two vials at the Thai lab (bridge + new). Setup ฿15,400 is CMU Science's "new method, secondary standard" line; a lab that already runs this peptide may charge less or nothing. ฿2,700 is CMU Science's HPLC and GC-MS per-sample price with a method on hand.</p>
+  <p class="fine th">เส้นทางขวดเทียบ ต่อล็อต: ส่งแล็บไทยสองขวด (ขวดเทียบ + ขวดใหม่) ค่าตั้งวิธี ฿15,400 มาจากรายการ "พัฒนาวิธีใหม่ สารมาตรฐาน secondary" ของคณะวิทยาศาสตร์ มช. แล็บที่ตรวจเปปไทด์ตัวนี้อยู่แล้วอาจคิดน้อยกว่านี้หรือไม่คิดเลย ฿2,700 คือราคาต่อตัวอย่าง HPLC และ GC-MS ของคณะวิทยาศาสตร์ มช. กรณีมีวิธีอยู่แล้ว</p>
+</div>
+</section>
+
+<section id="calls">
+<h2><span class="en">Beer's call sheet</span><span class="th">คำถามสำหรับเบียร์โทรถาม</span></h2>
+<ul class="check en">
+  <li>Do you run HPLC or LC-MS, as well as GC-MS?</li>
+  <li>Can you run two vials side by side, same day, and send both traces and the raw files?</li>
+  <li>Price for the first sample and for the second in the same run?</li>
+  <li>Is there a method setup fee for a peptide you have not run before? How much?</li>
+  <li>How many milligrams do you need? Can you return what is left?</li>
+  <li>How many days from drop-off to report?</li>
+  <li>What do you need to know about the sample, and what paperwork?</li>
+  <li>Report in English? Do you photograph the sealed vial on arrival?</li>
+  <li>Do you also test sterility, endotoxin (LAL) or heavy metals?</li>
+  <li>For tadalafil and steroids: do you hold the reference standards, or do we buy them? Which steroids need a licence?</li>
+</ul>
+<ul class="check th">
+  <li>มีเครื่อง HPLC หรือ LC-MS นอกจาก GC-MS ไหม?</li>
+  <li>ตรวจสองขวดคู่กันในวันเดียวกันได้ไหม แล้วส่งกราฟทั้งสองเส้นกับไฟล์ข้อมูลดิบให้ได้ไหม?</li>
+  <li>ราคาตัวอย่างแรก และตัวอย่างที่สองในรอบเดียวกัน เท่าไร?</li>
+  <li>ถ้าเป็นเปปไทด์ที่ไม่เคยตรวจ มีค่าตั้งวิธีไหม เท่าไร?</li>
+  <li>ต้องใช้ตัวอย่างกี่มิลลิกรัม ส่วนที่เหลือคืนได้ไหม?</li>
+  <li>ส่งตัวอย่างแล้วกี่วันได้ผล?</li>
+  <li>ต้องแจ้งข้อมูลอะไรเกี่ยวกับตัวอย่าง และต้องใช้เอกสารอะไรบ้าง?</li>
+  <li>ออกรายงานเป็นภาษาอังกฤษได้ไหม ถ่ายรูปขวดที่ยังปิดผนึกตอนรับไหม?</li>
+  <li>ตรวจความปลอดเชื้อ เอนโดท็อกซิน (LAL) หรือโลหะหนักด้วยไหม?</li>
+  <li>สำหรับทาดาลาฟิลและสเตียรอยด์: แล็บมีสารมาตรฐานอยู่แล้ว หรือเราต้องซื้อเอง สเตียรอยด์ตัวไหนต้องมีใบอนุญาต?</li>
+</ul>
+</section>
+
+<section id="labs">
+<h2><span class="en">Labs</span><span class="th">แล็บ</span></h2>
+<p class="en">103 Thai labs with GC-MS, mapped, with posted prices: <a href="https://nanobotco.github.io/gc-ms/">GC-MS: Who Tests It</a>. The CMU Faculty of Science (STSC) and Faculty of Pharmacy (CEL) sheets list HPLC; CMU Agriculture lists LC-TOF-MS/MS for ฿10,000, an exact-mass first look.</p>
+<p class="th">แล็บไทย 103 แห่งที่มี GC-MS พร้อมแผนที่และราคาประกาศ: <a href="https://nanobotco.github.io/gc-ms/">GC-MS: ใครตรวจได้</a> ศูนย์บริการวิทยาศาสตร์ฯ คณะวิทยาศาสตร์ มช. และห้องเครื่องมือกลาง คณะเภสัชศาสตร์ มช. มี HPLC คณะเกษตรศาสตร์ มช. มี LC-TOF-MS/MS ราคา ฿10,000 สำหรับดูมวลละเอียดครั้งแรก</p>
+</section>
+
+<section id="sources">
+<h2><span class="en">Sources</span><span class="th">แหล่งข้อมูล</span></h2>
+<ul class="plain fine">
+  <li><a href="http://www.stsc.science.cmu.ac.th/thai/upload/filemanager/2026-05-08-101152-52110.pdf">CMU Faculty of Science STSC, 2026 rates</a></li>
+  <li><a href="https://drive.google.com/file/d/1098N0ANZLVg9713_K5FIhMoLNY16I9gk/view">CMU Faculty of Pharmacy CEL, 19 Dec 2024</a></li>
+  <li><a href="https://www.peptideprotocolwiki.com/labs/janoshik-analytical">Peptide Protocol Wiki: Janoshik Analytical</a> · <a href="https://janoshik.com/">janoshik.com</a></li>
+  <li><a href="https://chemdata.nist.gov/dokuwiki/doku.php?id=chemdata:nist20">NIST mass spectral library</a></li>
+</ul>
+</section>
+</main>
+<footer>
+  <p><span class="en">Made by NaNoBotCo, Chiang Mai, October 2026. Text CC BY 4.0, code MIT.</span><span class="th">ทำโดย NaNoBotCo เชียงใหม่ ตุลาคม 2569 ข้อความ CC BY 4.0 โค้ด MIT</span> · <a href="https://github.com/NaNoBotCo/bridge-vial">GitHub</a></p>
+</footer>
+<script>
+(function(){
+var root=document.documentElement, NS="http://www.w3.org/2000/svg";
+var reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+function L(){return root.dataset.lang}
+function t(en,th){return L()==="th"?th:en}
+function el(tag,attrs,parent){var e=document.createElementNS(NS,tag);for(var k in attrs)e.setAttribute(k,attrs[k]);if(parent)parent.appendChild(e);return e}
+function txt(x,y,s,attrs,parent){var e=el("text",Object.assign({x:x,y:y},attrs||{}),parent);e.textContent=s;return e}
+
+/* language */
+var q=new URLSearchParams(location.search).get("lang"), saved=null;
+try{saved=localStorage.getItem("bv-lang")}catch(e){}
+var start=q||saved||((navigator.language||"").toLowerCase().indexOf("th")===0?"th":"en");
+var hooks=[];
+function setLang(l){root.dataset.lang=l;root.lang=l;
+  document.querySelectorAll("[data-set-lang]").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.setLang===l?"true":"false")});
+  try{localStorage.setItem("bv-lang",l)}catch(e){}
+  hooks.forEach(function(f){f()});}
+document.querySelectorAll("[data-set-lang]").forEach(function(b){b.addEventListener("click",function(){setLang(b.dataset.setLang)})});
+
+/* oven toy */
+var mol=document.getElementById("mol"), oven=document.getElementById("oven"), ovenSay=document.getElementById("ovenSay"), kind="small", ran=false;
+function drawMol(){mol.innerHTML="";
+  if(kind==="small"){[[0,0],[16,-9],[32,0],[32,18],[16,27],[0,18]].forEach(function(p,i,a){var n=a[(i+1)%a.length];el("line",{x1:p[0],y1:p[1],x2:n[0],y2:n[1],stroke:"var(--ink)","stroke-width":4},mol)});
+    [[0,0],[32,0],[16,27]].forEach(function(p){el("circle",{cx:p[0],cy:p[1],r:6,fill:"var(--gold)",stroke:"var(--ink)","stroke-width":2},mol)});}
+  else{var c=["var(--blue)","var(--gold)","var(--green)","var(--red)"];for(var i=0;i<9;i++){var x=i*15,y=(i%2)*12;if(i)el("line",{x1:x-15,y1:((i-1)%2)*12,x2:x,y2:y,stroke:"var(--ink)","stroke-width":3},mol);el("circle",{cx:x,cy:y,r:8,fill:c[i%4],stroke:"var(--ink)","stroke-width":2},mol)}}
+  place(false);}
+function place(go){var p=!go?"translate(30px,92px)":(kind==="small"?"translate(570px,62px)":"translate(205px,92px)");
+  mol.style.transition=go&&!reduce?"":"none";mol.style.transform=p;mol.style.opacity=(go&&kind==="peptide")?".25":"1";
+  oven.classList.toggle("burnt",go&&kind==="peptide");}
+function sayOven(){ovenSay.innerHTML=!ran?t("Pick a molecule, then press the button.","เลือกโมเลกุล แล้วกดปุ่ม"):
+  kind==="small"?t('<span class="good">It turns to gas, rides the column and reaches the MS. GC-MS works.</span>','<span class="good">กลายเป็นแก๊ส ไหลผ่านคอลัมน์ ถึง MS ได้ ใช้ GC-MS ได้</span>'):
+  t('<span class="bad">It chars before it can turn to gas. Send peptides to HPLC or LC-MS.</span>','<span class="bad">ไหม้ก่อนกลายเป็นแก๊ส เปปไทด์ต้องส่ง HPLC หรือ LC-MS</span>');}
+document.querySelectorAll("[data-mol]").forEach(function(b){b.addEventListener("click",function(){kind=b.dataset.mol;ran=false;
+  document.querySelectorAll("[data-mol]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});drawMol();sayOven();})});
+document.querySelector("[data-run]").addEventListener("click",function(){place(false);void mol.getBoundingClientRect();requestAnimationFrame(function(){ran=true;place(true);sayOven();})});
+drawMol();sayOven();hooks.push(sayOven);
+
+/* bench stepper */
+var boxes=document.getElementById("boxes"), vg=document.getElementById("vials");
+var BX={shelfA:{x:14,y:14,w:380,h:120},shelfB:{x:14,y:180,w:380,h:136},jan:{x:420,y:14,w:206,h:120},thai:{x:420,y:180,w:206,h:136}};
+function drawBoxes(){boxes.innerHTML="";
+  var lab={shelfA:t("Batch A","ล็อต A"),shelfB:t("Batch B","ล็อต B"),jan:t("Janoshik, Prague","Janoshik ปราก"),thai:t("Thai lab","แล็บไทย")};
+  for(var k in BX){var b=BX[k];el("rect",{x:b.x,y:b.y,width:b.w,height:b.h,rx:12,fill:k.indexOf("shelf")===0?"none":"var(--well)",stroke:"var(--rule)","stroke-width":3,"stroke-dasharray":k.indexOf("shelf")===0?"8 6":"0"},boxes);
+    txt(b.x+12,b.y+26,lab[k],{"font-size":18,"font-weight":700,fill:"var(--muted)","font-family":"var(--body)",id:"lab-"+k},boxes);}
+  boxes.appendChild(traceG);}
+var traceG=el("g",{opacity:0});
+(function(){var ox=440,oy=290,w=166,h=50;var pA="",pB="";for(var i=0;i<=60;i++){var x=i/60,yA=Math.exp(-Math.pow((x-.55)/.06,2)),yB=.96*yA;pA+=(i?"L":"M")+(ox+x*w)+" "+(oy-yA*h);pB+=(i?"L":"M")+(ox+x*w)+" "+(oy-yB*h-1);}
+  el("line",{x1:ox,y1:oy,x2:ox+w,y2:oy,stroke:"var(--muted)","stroke-width":2},traceG);
+  el("path",{d:pA,fill:"none",stroke:"var(--blue)","stroke-width":3},traceG);el("path",{d:pB,fill:"none",stroke:"var(--red)","stroke-width":3,"stroke-dasharray":"6 4"},traceG);})();
+traceG.style.transition="opacity .6s";
+function vial(id,cap){var g=el("g",{class:"vial",id:id},vg);
+  el("rect",{x:-11,y:-30,width:22,height:10,rx:2,fill:cap,stroke:"var(--ink)","stroke-width":2},g);
+  el("rect",{x:-13,y:-20,width:26,height:48,rx:5,fill:"var(--glass)",stroke:"var(--ink)","stroke-width":2.5},g);
+  el("rect",{x:-10,y:10,width:20,height:15,rx:3,fill:"var(--powder)"},g);
+  var lot=el("g",{class:"lot",opacity:0},g);el("rect",{x:-14,y:-6,width:28,height:13,rx:2,fill:"var(--panel)",stroke:"var(--ink)","stroke-width":1},lot);
+  txt(0,4,id[0],{"text-anchor":"middle","font-size":10,"font-family":"var(--mono)","font-weight":600,fill:"var(--ink)"},lot);
+  var x=el("g",{class:"lot cross",opacity:0},g);el("line",{x1:-16,y1:-24,x2:16,y2:28,stroke:"var(--red)","stroke-width":4},x);el("line",{x1:16,y1:-24,x2:-16,y2:28,stroke:"var(--red)","stroke-width":4},x);
+  var br=el("g",{class:"lot bridge",opacity:0},g);el("rect",{x:-17,y:-34,width:34,height:66,rx:8,fill:"none",stroke:"var(--blue)","stroke-width":3},br);txt(0,48,"❄",{"text-anchor":"middle","font-size":16,fill:"var(--blue)"},br);
+  return g;}
+var A=[],B=[];for(var i=0;i<10;i++){A.push(vial("A"+i,"var(--gold)"))}for(i=0;i<10;i++){B.push(vial("B"+i,"var(--gold)"))}
+function shelfPos(row,i){return [44+i*36,row==="A"?84:252]}
+var STEPS=[
+ {en:"Batch A: one order, one seller, ten vials, the same cap colour, one lot code printed on the label.",th:"ล็อต A: สั่งครั้งเดียว ผู้ขายเดียว สิบขวด ฝาสีเดียวกัน เลขล็อตเดียวกันพิมพ์บนฉลาก"},
+ {en:"One vial goes to Janoshik. The test dissolves it, so it does not come back. The report names the substance, the milligrams in the vial and the purity.",th:"ส่งหนึ่งขวดไป Janoshik การตรวจละลายขวดนั้นหมด ไม่ได้คืน รายงานบอกชื่อสาร จำนวนมิลลิกรัมในขวด และความบริสุทธิ์"},
+ {en:"Check the nine sisters belong to that vial: lot code on label and box, the order record, the seller. Cap colour alone is a weak clue; sellers reuse caps.",th:"เช็กว่าขวดพี่น้องเก้าขวดมาจากชุดเดียวกับขวดที่ตรวจ: เลขล็อตบนฉลากและกล่อง ใบสั่งซื้อ ผู้ขาย สีฝาอย่างเดียวเป็นเบาะแสที่อ่อน ผู้ขายใช้ฝาซ้ำ"},
+ {en:"Set two sisters aside as bridge vials: sealed, dark, in the freezer. Write on them: bridge, batch A, and the Janoshik report number.",th:"แยกขวดพี่น้องสองขวดไว้เป็นขวดเทียบ: ปิดผนึก เก็บในที่มืด ในช่องแช่แข็ง เขียนกำกับว่า ขวดเทียบ ล็อต A และเลขรายงาน Janoshik"},
+ {en:"Batch B arrives. Same seller, maybe the same gold caps, but a new batch. Nothing on the outside says what is inside.",th:"ล็อต B มาถึง ผู้ขายเดิม ฝาสีทองเหมือนเดิมก็ได้ แต่เป็นล็อตใหม่ ภายนอกไม่ได้บอกว่าข้างในคืออะไร"},
+ {en:"One bridge vial and one batch B vial go to the Thai lab together. Same day, same machine, same method, the same amount of water in each.",th:"ส่งขวดเทียบหนึ่งขวดกับขวดล็อต B หนึ่งขวดไปแล็บไทยพร้อมกัน วันเดียวกัน เครื่องเดียวกัน วิธีเดียวกัน ผสมน้ำเท่ากันทั้งสองขวด"},
+ {en:"Two traces come back. Peaks at the same time with the same mass: same substance. Peak size: how much B holds next to A, whose milligrams Janoshik already counted.",th:"ได้กราฟสองเส้น ยอดขึ้นเวลาเดียวกันและมวลตรงกัน แปลว่าสารเดียวกัน ขนาดยอดบอกว่า B มีปริมาณเท่าไรเมื่อเทียบกับ A ซึ่ง Janoshik นับมิลลิกรัมไว้แล้ว"},
+ {en:"If B matches, two B sisters become the next bridge. Every few batches, one goes back to Janoshik to re-anchor the chain.",th:"ถ้า B ตรง ขวดพี่น้องของ B สองขวดกลายเป็นขวดเทียบชุดต่อไป ทุก ๆ ไม่กี่ล็อต ส่งหนึ่งขวดกลับไป Janoshik เพื่อตั้งหลักใหม่"}];
+var step=0, dots=document.getElementById("dots");
+STEPS.forEach(function(){dots.appendChild(document.createElement("i"))});
+function setV(g,x,y,o,lot,cross,bridge){g.style.transform="translate("+x+"px,"+y+"px)";g.style.opacity=o;
+  g.querySelector(".lot").setAttribute("opacity",lot?1:0);g.querySelector(".cross").setAttribute("opacity",cross?1:0);g.querySelector(".bridge").setAttribute("opacity",bridge?1:0);}
+function render(){var s=step;
+  A.forEach(function(g,i){var p=shelfPos("A",i),x=p[0],y=p[1],o=1,cross=false,bridge=false;
+    if(i===0&&s>=1){x=523;y=84;cross=s>=1;o=s>=2?.35:1}
+    if((i===1||i===2)&&s>=3)bridge=true;
+    if(i===1&&s>=5){x=495;y=252}
+    setV(g,x,y,o,s>=2&&!(i===0),false,bridge);g.querySelector(".cross").setAttribute("opacity",cross?1:0);});
+  B.forEach(function(g,i){var p=shelfPos("B",i),x=p[0],y=p[1],o=s>=4?1:0,bridge=false;
+    if(i===0&&s>=5){x=552;y=252}
+    if((i===1||i===2)&&s>=7)bridge=true;
+    setV(g,x,y,o,s>=4,false,bridge);});
+  traceG.setAttribute("opacity",s>=6?1:0);
+  if(s>=6){A[1].style.opacity=.35;B[0].style.opacity=.35}
+  document.getElementById("steptext").textContent=t(STEPS[s].en,STEPS[s].th);
+  document.getElementById("stepnum").textContent=t("STEP ","ขั้นที่ ")+(s+1)+" / "+STEPS.length;
+  [].forEach.call(dots.children,function(d,i){d.className=i===s?"on":""});
+  document.getElementById("prev").disabled=s===0;
+  document.getElementById("next").disabled=s===STEPS.length-1;}
+document.getElementById("next").addEventListener("click",function(){if(step<STEPS.length-1){step++;render()}});
+document.getElementById("prev").addEventListener("click",function(){if(step>0){step--;render()}});
+hooks.push(function(){drawBoxes();render()});
+if(reduce)vg.querySelectorAll(".vial").forEach(function(g){g.style.transition="none"});
+drawBoxes();render();
+
+/* chromatogram toy */
+var chrom=document.getElementById("chrom"), chromSay=document.getElementById("chromSay"), kase="same";
+var CASES={
+ same:{b:[[.55,.97]],en:'<span class="good">Same time, same height. Same substance, about the same amount as batch A.</span>',th:'<span class="good">เวลาเดียวกัน ความสูงใกล้กัน สารเดียวกัน ปริมาณราวเดียวกับล็อต A</span>'},
+ under:{b:[[.55,.55]],en:'<span class="bad">Same time, so same substance, but the peak is about 55% as large: roughly half the milligrams on the label.</span>',th:'<span class="bad">เวลาเดียวกัน จึงเป็นสารเดียวกัน แต่ยอดสูงราว 55% แปลว่ามิลลิกรัมราวครึ่งเดียวของฉลาก</span>'},
+ wrong:{b:[[.33,.9]],en:'<span class="bad">The red peak comes out at a different time and its mass differs. Batch B is not substance A.</span>',th:'<span class="bad">ยอดสีแดงออกคนละเวลา และมวลไม่ตรง ล็อต B ไม่ใช่สาร A</span>'},
+ junk:{b:[[.55,.8],[.3,.22],[.78,.16]],en:'<span class="bad">The main peak matches, but two extra peaks take about a third of the total: impurities batch A did not have.</span>',th:'<span class="bad">ยอดหลักตรง แต่มียอดแปลกอีกสองยอด กินพื้นที่ราวหนึ่งในสาม คือสิ่งเจือปนที่ล็อต A ไม่มี</span>'}};
+function curve(peaks){var ox=50,oy=210,w=560,h=170,d="";for(var i=0;i<=240;i++){var x=i/240,y=0;peaks.forEach(function(p){y+=p[1]*Math.exp(-Math.pow((x-p[0])/.028,2))});d+=(i?"L":"M")+(ox+x*w).toFixed(1)+" "+(oy-y*h).toFixed(1)}return d}
+function drawChrom(){chrom.innerHTML="";var c=CASES[kase];
+  el("line",{x1:50,y1:210,x2:615,y2:210,stroke:"var(--ink)","stroke-width":2},chrom);el("line",{x1:50,y1:30,x2:50,y2:210,stroke:"var(--ink)","stroke-width":2},chrom);
+  txt(332,245,t("time (minutes) →","เวลา (นาที) →"),{"text-anchor":"middle","font-size":17,fill:"var(--muted)","font-family":"var(--body)"},chrom);
+  txt(14,120,t("signal","สัญญาณ"),{"text-anchor":"middle","font-size":17,fill:"var(--muted)","font-family":"var(--body)",transform:"rotate(-90 14 120)"},chrom);
+  for(var m=0;m<=10;m+=2){var x=50+m/10*560;el("line",{x1:x,y1:210,x2:x,y2:216,stroke:"var(--ink)","stroke-width":2},chrom);txt(x,232,String(m),{"text-anchor":"middle","font-size":14,fill:"var(--muted)","font-family":"var(--mono)"},chrom)}
+  el("path",{d:curve([[.55,1]]),fill:"none",stroke:"var(--blue)","stroke-width":4},chrom);
+  var p=el("path",{d:curve(c.b),fill:"none",stroke:"var(--red)","stroke-width":4,"stroke-dasharray":"9 6"},chrom);
+  if(!reduce){var len=p.getTotalLength();p.style.strokeDasharray=len;p.style.strokeDashoffset=len;p.getBoundingClientRect();p.style.transition="stroke-dashoffset 1.2s ease-out";p.style.strokeDashoffset=0;
+    setTimeout(function(){p.style.transition="none";p.style.strokeDasharray="9 6"},1300);}
+  txt(612,52,t("bridge (A)","ขวดเทียบ (A)"),{"text-anchor":"end","font-size":17,"font-weight":700,fill:"var(--blue)","font-family":"var(--body)"},chrom);
+  txt(612,74,t("new batch (B)","ล็อตใหม่ (B)"),{"text-anchor":"end","font-size":17,"font-weight":700,fill:"var(--red)","font-family":"var(--body)"},chrom);
+  chromSay.innerHTML=t(c.en,c.th);}
+document.querySelectorAll("[data-case]").forEach(function(b){b.addEventListener("click",function(){kase=b.dataset.case;
+  document.querySelectorAll("[data-case]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});drawChrom();})});
+hooks.push(drawChrom);drawChrom();
+
+/* certificate peak + m/z checker */
+(function(){var d="";for(var i=0;i<=300;i++){var x=i/300,tt=x*5,y=Math.exp(-Math.pow((tt-2.9)/.035,2))+.35*Math.exp(-Math.pow((tt-2.98)/.05,2));d+=(i?"L":"M")+(40+x*570).toFixed(1)+" "+(140-Math.min(1,y)*110+(i%7===0?.6:0)).toFixed(1)}document.getElementById("coaPeak").setAttribute("d",d)})();
+var adj={tfa:false,na:false,fa:false};
+function mz(){var M=parseFloat(document.getElementById("mzM").value)||0,V=parseFloat(document.getElementById("mzV").value)||0,H=1.00728;
+  var base=M-(adj.tfa?114.02:0)+(adj.fa?46.005:0), list=document.getElementById("mzList"), best=null;list.innerHTML="";
+  for(var z=1;z<=8;z++){var c=adj.na?(base+(z-1)*H+22.98922)/z:(base+z*H)/z;
+    var gap=Math.abs(c-V);if(!best||gap<best.gap)best={z:z,c:c,gap:gap};
+    var e=document.createElement("div");e.id="mz"+z;e.innerHTML=z+"+ &nbsp;"+c.toFixed(2)+"<small>"+t("charge ","ประจุ ")+z+"</small>";list.appendChild(e);}
+  if(best&&V){var hit=best.gap<1;document.getElementById("mz"+best.z).classList.toggle("hit",hit);
+    document.getElementById("mzSay").innerHTML=hit?t('<span class="good">Fits '+best.z+'+ (gap '+best.gap.toFixed(2)+').</span>','<span class="good">ตรงกับประจุ '+best.z+'+ (ห่าง '+best.gap.toFixed(2)+')</span>'):
+      t('<span class="bad">Nearest is '+best.z+'+, off by '+best.gap.toFixed(2)+'. Try the buttons; if nothing fits, ask the lab what ion they read.</span>','<span class="bad">ใกล้สุดคือประจุ '+best.z+'+ ห่าง '+best.gap.toFixed(2)+' ลองกดปุ่ม ถ้ายังไม่ตรง ถามแล็บว่าอ่านไอออนตัวไหน</span>');}
+  else document.getElementById("mzSay").textContent="";}
+document.querySelectorAll("[data-adj]").forEach(function(b){b.addEventListener("click",function(){adj[b.dataset.adj]=!adj[b.dataset.adj];b.setAttribute("aria-pressed",adj[b.dataset.adj]?"true":"false");mz()})});
+["mzM","mzV"].forEach(function(k){document.getElementById(k).addEventListener("input",mz)});
+hooks.push(mz);
+
+/* costs */
+var ids=["batches","every","jtest","jship","fx","tsample","tsetup"], v={};
+function num(n){return Math.round(n).toLocaleString(L()==="th"?"th-TH":"en-US")}
+function calc(){ids.forEach(function(k){v[k]=Math.max(0,parseFloat(document.getElementById(k).value)||0)});
+  document.getElementById("batchesOut").textContent=v.batches;document.getElementById("everyOut").textContent=v.every;
+  var jan=v.batches*(v.jtest+v.jship)*v.fx, re=Math.floor(v.batches/Math.max(1,v.every)),
+      bridge=v.tsetup+v.batches*2*v.tsample+re*(v.jtest+v.jship)*v.fx, max=Math.max(jan,bridge,1);
+  var bars=document.getElementById("bars");bars.innerHTML="";
+  [[t("Every batch to Janoshik","ทุกล็อตส่ง Janoshik"),jan,"var(--red)"],[t("Bridge vial, Thai lab","ขวดเทียบ แล็บไทย"),bridge,"var(--green)"]].forEach(function(r){
+    var d=document.createElement("div");d.className="barrow";
+    d.innerHTML='<div class="lab"><span>'+r[0]+'</span><span>฿'+num(r[1])+'</span></div><div class="track"><div class="fill" style="width:'+(r[1]/max*100).toFixed(1)+'%;background:'+r[2]+'"></div></div>';bars.appendChild(d)});
+  var diff=jan-bridge;
+  document.getElementById("costSay").innerHTML=diff>0?
+    t("Bridge route saves <b>฿"+num(diff)+"</b> over "+v.batches+" batches, about ฿"+num(diff/v.batches)+" a batch, with "+re+" re-anchor"+(re===1?"":"s")+" at Janoshik.","เส้นทางขวดเทียบประหยัด <b>฿"+num(diff)+"</b> ใน "+v.batches+" ล็อต ราว ฿"+num(diff/v.batches)+" ต่อล็อต รวมส่ง Janoshik ตั้งหลักใหม่ "+re+" ครั้ง"):
+    t("At these numbers, sending every batch to Janoshik costs <b>฿"+num(-diff)+"</b> less.","ด้วยตัวเลขนี้ ส่งทุกล็อตไป Janoshik ถูกกว่า <b>฿"+num(-diff)+"</b>");}
+ids.forEach(function(k){document.getElementById(k).addEventListener("input",calc)});
+hooks.push(calc);
+setLang(start);
+})();
+</script>
+</body>
+</html>

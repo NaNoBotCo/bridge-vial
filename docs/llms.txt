@@ -1,0 +1,14 @@
+# The Bridge Vial · ขวดเทียบ
+
+How a Thai contract lab can check new batches of freeze-dried (lyophilized) peptide vials against a sister vial from a batch Janoshik already tested, and how tadalafil and anabolic steroids are tested against bought reference standards. English and Thai.
+
+- Three ways a lab names a substance it has never run: GC-MS library match (NIST), exact mass by high-resolution MS (Q-TOF, Orbitrap, MS/MS), side by side with a known sample.
+- GC or LC: GC-MS heats the sample to gas near 300 °C; small molecules (steroids, tadalafil) pass, peptides char and go to HPLC or LC-MS.
+- The bridge: one vial of batch A to Janoshik (destroyed in testing); sister vials kept frozen as bridge vials; each new batch runs beside a bridge vial at a Thai lab; matching retention time and mass gives identity, peak area gives amount relative to batch A; re-anchor at Janoshik every few batches.
+- Reading a certificate of analysis: client, lot, mol wt and TFA salt, method, identity, quantity spec arithmetic, purity, extracted-ion chromatograms, dates, certificate number; m/z checker.
+- Limits: inherited error, fill variation, peptide ageing, sample size, cap colour as a weak clue. Not covered by the bridge run: sterility, endotoxin, heavy metals.
+- Costs: CMU Faculty of Science and Faculty of Pharmacy posted rates; Janoshik prices as reported by Peptide Protocol Wiki; calculator.
+- Call sheet for labs.
+
+Labs: https://nanobotco.github.io/gc-ms/
+Text CC BY 4.0, code MIT.
